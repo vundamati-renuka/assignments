@@ -10,7 +10,7 @@ public class ExceptionHandlingExample {
             System.out.println("Caught ArrayIndexOutOfBoundsException: " + e.getMessage());
         }
 
-       
+
         try {
             String invalidNumber = "abc";
             int parsedNumber = Integer.parseInt(invalidNumber);  // invalid integer
